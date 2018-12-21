@@ -859,7 +859,7 @@ We found that most existing work with symbolic execution engine performs very we
 This is because that the base code of the four apllications (who, uniq, base64 and md5sum) in LAVA-M are small (2K LOC ~ 4K LOC), symbolic execution works well on them, but usually performs the opposite or even hangs on real projects whose code base easily reach 100k LoC. 
 However, for AFL (or some other state-of-the-art fuzzers) which is widely used in real industry projects, it works much better.
 To avoid the bias, we also choose some real projects with larger base codes(80K ~ 220K) from google's fuzzing-test-suit.
-Currently, due to time limitation, we only select three projects for response demonstration. More projects contained in Google's fuzzing-test-suit would be updated continuesly.
+Currently, due to time limitation, we only select four projects for response demonstration. More projects contained in Google's fuzzing-test-suit would be updated continuesly.
 
 
 
@@ -913,7 +913,7 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0pky">631</td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="3">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
+    <td class="tg-c3ow" rowspan="4">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
     <td class="tg-0pky">libxml2</td>
     <td class="tg-0pky">230232</td>
     <td class="tg-0pky">14888</td>
@@ -939,6 +939,15 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0pky">12085</td>
     <td class="tg-0pky">10492</td>
     <td class="tg-0pky">14453</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">openssl</td>
+    <td class="tg-0pky">304904</td>
+    <td class="tg-0pky">4090</td>
+    <td class="tg-0pky">3425</td>
+    <td class="tg-0pky">3956</td>
+    <td class="tg-0pky">3243</td>
+    <td class="tg-0pky">4682</td>
   </tr>
 </table>
 		
@@ -994,7 +1003,7 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0pky">1301</td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="3">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
+    <td class="tg-c3ow" rowspan="4">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
     <td class="tg-0pky">libxml2</td>
     <td class="tg-0pky">230232</td>
     <td class="tg-0pky">15204</td>
@@ -1020,6 +1029,15 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0pky">17360</td>
     <td class="tg-0pky">16323</td>
     <td class="tg-0pky">18376</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">openssl</td>
+    <td class="tg-0pky">304904</td>
+    <td class="tg-0pky">4079</td>
+    <td class="tg-0pky">4004</td>
+    <td class="tg-0pky">4021</td>
+    <td class="tg-0pky">3892</td>
+    <td class="tg-0pky">4292</td>
   </tr>
 </table>
 
@@ -1080,7 +1098,7 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0lax">26</td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="3">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
+    <td class="tg-c3ow" rowspan="4">Google's fuzzing<br>&nbsp;&nbsp;test suit</td>
     <td class="tg-0pky">libxml2</td>
     <td class="tg-0pky">230232</td>
     <td class="tg-0pky">unknown</td>
@@ -1109,5 +1127,15 @@ Currently, due to time limitation, we only select three projects for response de
     <td class="tg-0pky">1</td>
     <td class="tg-0pky">1</td>
     <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">openssl</td>
+    <td class="tg-0pky">304904</td>
+    <td class="tg-0pky">unknown</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0lax">9</td>
   </tr>
 </table>
